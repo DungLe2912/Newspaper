@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './css/style.css';
+import Preloader from './components/Preloader/Preloader';
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <React.Fragment>
+      
+    {/* Preloader */}
+    <Preloader/>
+      <h3>Hello world</h3>
+    </React.Fragment>
   );
 }
 
